@@ -1,5 +1,3 @@
-//jwt.go created by @bzhu
-
 package jwt
 
 import (

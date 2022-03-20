@@ -1,5 +1,3 @@
-//routers.go created by @bzhu. 
-
 package routers
 
 import (
