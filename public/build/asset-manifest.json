@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b39a9e38.chunk.css",
+    "main.js": "/static/js/main.c700dbb7.chunk.js",
+    "main.js.map": "/static/js/main.c700dbb7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25d297eb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25d297eb.js.map",
+    "static/js/2.8fd83900.chunk.js": "/static/js/2.8fd83900.chunk.js",
+    "static/js/2.8fd83900.chunk.js.map": "/static/js/2.8fd83900.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e6bf8c3c42fdc9cc5af65b343b881867.js": "/precache-manifest.e6bf8c3c42fdc9cc5af65b343b881867.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b39a9e38.chunk.css.map": "/static/css/main.b39a9e38.chunk.css.map",
+    "static/js/2.8fd83900.chunk.js.LICENSE.txt": "/static/js/2.8fd83900.chunk.js.LICENSE.txt",
+    "static/doctorxa/adult.jpg": "/static/doctorxa/adult.df4ac635.jpg",
+    "static/doctorxa/brass.jpeg": "/static/doctorxa/brass.60086fa9.jpeg",
+    "static/doctorxa/drums.jpg": "/static/doctorxa/drums.e3feb91f.jpg",
+    "static/doctorxa/guitar.webp": "/static/doctorxa/guitar.517b94b2.webp",
+    "static/doctorxa/harp.webp": "/static/doctorxa/harp.eedf92f5.webp",
+    "static/doctorxa/organ.jpg": "/static/doctorxa/organ.a1e7850b.jpg",
+    "static/doctorxa/piano.jpg": "/static/doctorxa/piano.d4a9092b.jpg",
+    "static/doctorxa/singing.jpg": "/static/doctorxa/singing.087a2f16.jpg",
+    "static/doctorxa/speech.jpg": "/static/doctorxa/speech.cf587102.jpg",
+    "static/doctorxa/strings.webp": "/static/doctorxa/strings.d785a6b4.webp",
+    "static/doctorxa/theatre.jpg": "/static/doctorxa/theatre.06c48807.jpg",
+    "static/doctorxa/ukelele.jpg": "/static/doctorxa/ukelele.af3934ce.jpg",
+    "static/doctorxa/woodwinds.jpg": "/static/doctorxa/woodwinds.e3e07946.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25d297eb.js",
+    "static/js/2.8fd83900.chunk.js",
+    "static/css/main.b39a9e38.chunk.css",
+    "static/js/main.c700dbb7.chunk.js"
+  ]
+}

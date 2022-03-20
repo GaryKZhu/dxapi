@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/imports/trans_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/trans_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/imports/trans_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/imports/trans_import.owl"/>
+        <dc:description>The Pathogen Transmission Ontology describes the tranmission methods of human disease pathogens describing how a pathogen is transmitted from one host, reservoir, or source to another host. The pathogen transmission may occur either directly or indirectly and may involve animate vectors or inanimate vehicles.</dc:description>
+        <dc:title>Pathogen Transmission Ontology</dc:title>
+        <terms:license>https://creativecommons.org/publicdomain/zero/1.0/</terms:license>
+        <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 1.101</oboInOwl:auto-generated-by>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06:02:2008 14:52</oboInOwl:date>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission_process</oboInOwl:default-namespace>
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lynn</oboInOwl:saved-by>
+        <rdfs:comment rdf:resource="http://purl.obolibrary.org/obo/trans.owl/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000000">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000000</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000001</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direct transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000000"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000002</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indirect transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000005"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000003</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mechanical transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000002"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000005</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vector-borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000001"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000006</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000001"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000007</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000001"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000008</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">droplet spread transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000002"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000009</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">airborne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000002"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000010</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000011</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne fomite transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000012</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne ingestion transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000010"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000013</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vehicle-borne medical transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000005"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000014</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vector-borne bite transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000005"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000015</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biologic transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000006"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000018</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placental transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000005"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000019</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthropod borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000019"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000020</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000020"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000021</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mosquito borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000021"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000022</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anopheles gambiae borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000020"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000023</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flea borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000027"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000024</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tick borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000005"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000025</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copepod borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000025"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000026</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dracunculus medinensis borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000019"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANS:0000027</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arachnid borne transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000028</oboInOwl:id>
+        <rdfs:label xml:lang="en">propagative transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000029</oboInOwl:id>
+        <rdfs:label xml:lang="en">cyclopropagative transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000030</oboInOwl:id>
+        <rdfs:label xml:lang="en">cyclodevelopmental transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000031</oboInOwl:id>
+        <rdfs:label xml:lang="en">transovarial transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000032</oboInOwl:id>
+        <rdfs:label xml:lang="en">vertical transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000033</oboInOwl:id>
+        <rdfs:label xml:lang="en">trans-stadial transmission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TRANS_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TRANS_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TRANS_0000015"/>
+        <oboInOwl:id>TRANS:0000034</oboInOwl:id>
+        <rdfs:label xml:lang="en">veneral transmission</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
