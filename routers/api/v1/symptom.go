@@ -62,8 +62,10 @@ func InsertSymptom(c *gin.Context) {
 	symptom.Timestamp /= 1000; 
 
 	s := strings.Split(symptom.Head, ",")
-
 	for index, element := range s {
+		if(checkEmpty(s)) {
+			break;
+		} 
 		var t string; 
 		switch index {
 			case 0: t = "Fever"
@@ -84,6 +86,9 @@ func InsertSymptom(c *gin.Context) {
 	s = strings.Split(symptom.Lung, ",")
 
 	for index, element := range s {
+		if(checkEmpty(s)) {
+			break;
+		} 
 		var t string; 
 		switch index {
 			case 0: t = "Stuffy Nose"
@@ -104,6 +109,9 @@ func InsertSymptom(c *gin.Context) {
 	s = strings.Split(symptom.Chest, ",")
 
 	for index, element := range s {
+		if(checkEmpty(s)) {
+			break; 
+		}
 		var t string; 
 		switch index {
 			case 0: t = "Chest Tightness"
@@ -121,6 +129,9 @@ func InsertSymptom(c *gin.Context) {
 	s = strings.Split(symptom.Abdomen, ",")
 
 	for index, element := range s {
+		if(checkEmpty(s)) {
+			break;
+		}
 		var t string; 
 		switch index {
 			case 0: t = "Vomiting"
@@ -141,6 +152,9 @@ func InsertSymptom(c *gin.Context) {
 	s = strings.Split(symptom.Limbs, ",")
 
 	for index, element := range s {
+		if(checkEmpty(s)) {
+			break; 
+		}
 		var t string; 
 		switch index {
 			case 0: t = "Arm Pain"
@@ -160,6 +174,9 @@ func InsertSymptom(c *gin.Context) {
 
 	s = strings.Split(symptom.Other, ",")
 	for index, element := range s {
+		if(checkEmpty(s)) {
+			break;
+		} 
 		var t string; 
 		switch index {
 			case 0: t = "Systolic Blood Pressure"
@@ -175,10 +192,19 @@ func InsertSymptom(c *gin.Context) {
 		CheckError(err)
 		stmt.Close()
 	}
-
-	conn.Close()
+	
 	//reply the response
 	c.JSON(200, gin.H{
 		"message": "Succeed to insert symptom.",
 	})
+}
+
+func checkEmpty(s []string) (b bool) {
+	b = false
+	for i := 0; i < len(s); i += 1 {
+		if(s[i] != "0") {
+			b = true
+		}
+	}
+	return b
 }
